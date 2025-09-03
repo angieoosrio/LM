@@ -32,7 +32,7 @@ header {
   padding: 10px;
   text-align: left;
   font-size: 1rem;
-  height: 9vh;
+  height: 10vh;
   color:#f5f1e6;
   flex-shrink: 0;
 }
@@ -41,7 +41,7 @@ header {
   flex-wrap: wrap; /* Si los elementos no caben los baja a la siguiente línea */
   flex: 1;
   width: 100%;
-  height: auto;
+  height: 80vh;
 }
 .article {
   flex: 1;
@@ -57,7 +57,7 @@ iframe {
 nav {
   background: #d9cbb6;
   width: 10vh;
-  min-width: 140px; /* Para pantallas pequeñas */
+  min-width: 120px; /* Para pantallas pequeñas */
   max-width: 220px;
   padding: 20px 10px;
 }
