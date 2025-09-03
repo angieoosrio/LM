@@ -1,0 +1,247 @@
+/*Iniciar sin margenes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+/*Estilos generales*/
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f1e6;
+  color: #2f2f2f;
+  line-height: 1.6;
+}
+h1{
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+  color: #5C4033;
+}
+p{
+  text-align: center;
+}
+/*Estilos del index*/
+header {
+  background-color: #8aa169;
+  padding: 10px;
+  text-align: left;
+  font-size: 1rem;
+  height: 9vh;
+  color:#f5f1e6;
+  flex-shrink: 0;
+}
+#section {
+  display: flex;
+  flex-wrap: wrap; /* Si los elementos no caben los baja a la siguiente línea */
+  flex: 1;
+  width: 100%;
+  height: auto;
+}
+.article {
+  flex: 1;
+  background-color: #f5f1e6;
+  padding: 0px;
+}
+iframe {
+  width: 100%;
+  height: 80vh;
+  border: none;
+  overflow-y: auto;
+}
+nav {
+  background: #d9cbb6;
+  width: 10%;
+  min-width: 140px; /* Para pantallas pequeñas */
+  max-width: 220px;
+  padding: 20px 10px;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  margin: 15px 0;
+  text-align: center
+}
+nav a {
+  text-decoration: none;
+  color: #5c4033;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #4a5a3d;
+}
+footer {
+  background-color: #4a5a3d;
+  padding: 0px;
+  text-align: center;
+  color: #f5f1e6;
+  font-size: 0.9rem;
+  width:100%;
+  height: 10vh;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer a {
+  color: #f5f1e6;          
+  text-decoration: none;   
+}
+/* Estilos de la Hoja de Vida*/
+.hv-div {
+  display: flex;
+  align-items: stretch;
+}
+.hv-izq {
+  background-color: #e9e6df; 
+  width: 30%;
+  max-width: 300px;
+  padding: 20px;
+  text-align: center;
+  border-right: 2px solid #d4d1c8;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hv-foto img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  object-fit: cover;
+  border: 3px solid #2f5233; 
+}
+.hv-izq h3 {
+  color: #2f5233;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  font-weight: bold; 
+}
+.hv-izq p {
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.hv-der {
+  flex: 1;
+  padding: 40px;
+  background: #fff;
+}
+.hv-der h2 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #5C4033;
+}
+.hv-der h3 {
+  font-size: 1.2rem;
+  margin: 25px 0 10px;
+  color: #2f5233;
+  border-bottom: 2px solid #c5d1b2;
+  padding-bottom: 5px;
+}
+.hv-der h4 {
+  font-size: 1rem;
+  margin-top: 15px;
+  color: #444;
+}
+.hv-der p {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.hv-der article{
+  background-color: #f5f1e6;
+}
+/* Estilos de la sección servicios */
+.intro{
+  padding: 20px;
+  font-size: 1.5rem;
+}
+.contenedor-servicios {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.servicio {
+    flex: 1 1 300px; 
+    max-width: 350px;
+    text-align: center; 
+}
+.servicio img {
+    width: 100%;
+    height: 200px;       
+    object-fit: cover;   
+    border-radius: 8px;
+}
+.servicio h3 {
+    margin: 15px 0 10px;
+    font-size: 1.2rem;
+    color: #2f5233;
+    font-weight: bold;
+    text-align: center; 
+}
+.servicio p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
+    text-align: center; 
+}
+/* Estilos de la sección Áreas Turísticas */
+.tur-container {
+  display: flex;
+  align-items: center;   
+  justify-content: flex-start;
+  gap: 40px;                 
+  margin: 20px auto;      
+  width: 90%;
+  height:auto;
+}
+.tur-img img {
+  width: 800px;   
+  height: 600px;   
+  border-radius: 8px;  
+  margin-top: 40px;
+}
+.tur-text {
+  flex: 1;                
+  text-align: center;    
+  font-size: 16px;        
+  line-height: 1.5;       
+}
+/* Estilos de la sección Localización UNAL */
+.unal-container{
+  display: flex !important;   
+  align-items: center;
+  flex-wrap: nowrap;          
+  width: 100%;
+  gap: 1rem;
+}
+.unal-text{
+  order: 1;                   
+  flex: 1 1 auto;
+  text-align: left;
+  margin-left: 40px;
+}
+.unal-img{
+  order: 2;                   
+  margin-left: 40px;          
+  flex: 0 0 auto;
+  margin-right: 40px;
+ 
+}
+
+
+

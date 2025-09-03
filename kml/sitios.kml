@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Folder>
+    <Placemark>
+      <name>Estadio Nemesio Camacho El Campín</name>
+      <description>
+      Es el estadio de fútbol más importante de Bogotá, Colombia
+      </description>
+      <Point>
+        <coordinates>-74.0777727,4.6456741,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Corferías</name>
+      <description>
+      Corferias es el Centro Internacional de Negocios y Exposiciones de Bogotá, un importante recinto ferial y de convenciones en Colombia que acoge una amplia variedad de eventos nacionales e internacionales
+      </description>
+      <Point>
+        <coordinates>-74.0900234,4.6293504,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Fiscalía General de la Nación</name>
+      <description>
+      La fiscalía es una institución pública autónoma adscrita a la rama judicial, cuyo sitio web es un portal de servicios públicos y de información ciudadana.
+      </description>
+      <Point>
+        <coordinates>-74.0994557,4.6393228,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Ministerio de Defensa Nacional</name>
+      <description>
+      Organismo gubernamental encargado de la formulación, desarrollo y ejecución de la política de defensa nacional, así como de la administración y dirección de las fuerzas militares.
+      </description>
+      <Point>
+        <coordinates>-74.0954042,4.6444828,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Fondo Nacional del Ahorro CAN</name>
+      <description>
+      Entidad pública colombiana que administra las cesantías y el ahorro de los afiliados, facilitando el acceso a créditos para vivienda y educación.
+      </description>
+      <Point>
+        <coordinates>-74.0912025,4.6441664,0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Folder>
+</kml>

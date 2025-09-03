@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<facturas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/esquema.xsd">
+    <factura>
+        <codigo>AAA001</codigo>
+        <comprador>
+            <tipo>Persona Jurídica</tipo>
+            <nombre>Constructora Verde S.A.S</nombre>
+            <identificacion>
+                <tipo>nit</tipo>
+                <numero>901456789</numero>
+            </identificacion>
+            <contacto>3205678912</contacto>
+            <correo>contacto@constructverdesas.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>12</dia>
+                <mes>febrero</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>09:15</hora>
+        </expedicion>
+        <forma_pago>Transferencia</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>Estudio de Impacto Ambiental</nombre>
+                <valor>5800000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+    <factura>
+        <codigo>AAA002</codigo>
+        <comprador>
+            <tipo>Persona Natural</tipo>
+            <nombre>Carlos Andrés Rodríguez</nombre>
+            <identificacion>
+                <tipo>cc</tipo>
+                <numero>1025894567</numero>
+            </identificacion>
+            <contacto>3112548796</contacto>
+            <correo>carlos.rodriguez@mail.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>20</dia>
+                <mes>marzo</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>16:30</hora>
+        </expedicion>
+        <forma_pago>Efectivo</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>Sistema de Gestión Ambiental</nombre>
+                <valor>3400000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+    <factura>
+        <codigo>AAA003</codigo>
+        <comprador>
+            <tipo>Persona Jurídica</tipo>
+            <nombre>Agroindustrias del Norte</nombre>
+            <identificacion>
+                <tipo>nit</tipo>
+                <numero>900456321</numero>
+            </identificacion>
+            <contacto>3006547895</contacto>
+            <correo>info@agronorte.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>8</dia>
+                <mes>abril</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>11:20</hora>
+        </expedicion>
+        <forma_pago>Cheque</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>Asesorías y Capacitaciones</nombre>
+                <valor>1750000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+    <factura>
+        <codigo>AAA004</codigo>
+        <comprador>
+            <tipo>Persona Natural</tipo>
+            <nombre>Laura Juliana Gómez</nombre>
+            <identificacion>
+                <tipo>cc</tipo>
+                <numero>1002458796</numero>
+            </identificacion>
+            <contacto>3124789563</contacto>
+            <correo>laura.gomez@gmail.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>25</dia>
+                <mes>abril</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>10:45</hora>
+        </expedicion>
+        <forma_pago>Transferencia</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>RAI del SGA</nombre>
+                <valor>2200000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+    <factura>
+        <codigo>AAA005</codigo>
+        <comprador>
+            <tipo>Persona Jurídica</tipo>
+            <nombre>Minería Sostenible Ltda.</nombre>
+            <identificacion>
+                <tipo>nit</tipo>
+                <numero>902365478</numero>
+            </identificacion>
+            <contacto>3197854632</contacto>
+            <correo>ambiental@mineriasostenible.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>3</dia>
+                <mes>mayo</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>08:00</hora>
+        </expedicion>
+        <forma_pago>Efectivo</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>Estudio de Impacto Ambiental</nombre>
+                <valor>6900000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+    <factura>
+        <codigo>AAA006</codigo>
+        <comprador>
+            <tipo>Persona Natural</tipo>
+            <nombre>Sofía Ramírez Martínez</nombre>
+            <identificacion>
+                <tipo>cc</tipo>
+                <numero>1012456987</numero>
+            </identificacion>
+            <contacto>3104785698</contacto>
+            <correo>sofi.ramirez@yahoo.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>15</dia>
+                <mes>junio</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>17:10</hora>
+        </expedicion>
+        <forma_pago>Tarjeta</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>Capacitación en SIG</nombre>
+                <valor>1450000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+    <factura>
+        <codigo>AAA007</codigo>
+        <comprador>
+            <tipo>Persona Jurídica</tipo>
+            <nombre>EcoConstrucciones Ltda.</nombre>
+            <identificacion>
+                <tipo>nit</tipo>
+                <numero>900147852</numero>
+            </identificacion>
+            <contacto>3185478963</contacto>
+            <correo>info@ecoconstrucciones.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>28</dia>
+                <mes>julio</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>12:35</hora>
+        </expedicion>
+        <forma_pago>Transferencia</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>Sistema de Gestión Ambiental</nombre>
+                <valor>3100000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+    <factura>
+        <codigo>AAA008</codigo>
+        <comprador>
+            <tipo>Persona Natural</tipo>
+            <nombre>Julián Esteban Pérez</nombre>
+            <identificacion>
+                <tipo>cc</tipo>
+                <numero>987456321</numero>
+            </identificacion>
+            <contacto>3012548963</contacto>
+            <correo>julian.perez@mail.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>6</dia>
+                <mes>agosto</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>14:00</hora>
+        </expedicion>
+        <forma_pago>Efectivo</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>Asesoría en sostenibilidad</nombre>
+                <valor>1200000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+    <factura>
+        <codigo>AAA009</codigo>
+        <comprador>
+            <tipo>Persona Jurídica</tipo>
+            <nombre>Hotel Bosque Encantado</nombre>
+            <identificacion>
+                <tipo>nit</tipo>
+                <numero>901234567</numero>
+            </identificacion>
+            <contacto>3178965412</contacto>
+            <correo>reservas@bosqueencantado.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>19</dia>
+                <mes>septiembre</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>19:45</hora>
+        </expedicion>
+        <forma_pago>Transferencia</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>RAI del SGA</nombre>
+                <valor>2650000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+    <factura>
+        <codigo>AAA010</codigo>
+        <comprador>
+            <tipo>Persona Natural</tipo>
+            <nombre>Valentina Torres</nombre>
+            <identificacion>
+                <tipo>cc</tipo>
+                <numero>1054879632</numero>
+            </identificacion>
+            <contacto>3126548795</contacto>
+            <correo>valen.torres@gmail.com</correo>
+        </comprador>
+        <expedicion>
+            <fecha>
+                <dia>27</dia>
+                <mes>octubre</mes>
+                <año>2024</año>
+            </fecha>
+            <hora>15:55</hora>
+        </expedicion>
+        <forma_pago>Tarjeta</forma_pago>
+        <servicios>
+            <servicio>
+                <nombre>Capacitación en gestión ambiental</nombre>
+                <valor>1600000</valor>
+            </servicio>
+        </servicios>
+    </factura>
+</facturas>

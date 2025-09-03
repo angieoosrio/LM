@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="700" width="600" xmlns="http://www.w3.org/2000/svg" align="center">
+        <rect width="600" height="700" x="10" y="10" rx="20" ry="20" fill="PapayaWhip" />
+        <polygon points="61,319 264,185 307,111 512,284 502,497 494,536 394,608 355,557 233,507 142,455 " style="fill:PaleGoldenrod;stroke:DarkKhaki;stroke-width:3" />
+        <text x="200" y="370" fill="black">Universidad Nacional de Colombia</text>
+        <polyline points="542,10 539,90 505,564 489,646 466,697" style="stroke:LightGray;stroke-width:14;fill:none" />
+        <text x="514" y="480" fill="black" transform="rotate(95 514,480)">Avenida NQS</text>
+        <text x="530" y="178" fill="black" transform="rotate(92 530,178)">Avenida NQS</text>
+        <polyline points="20,241 53,327 162,480 185,493 333,547 375,580 409,633 443,693" style="stroke:LightGray;stroke-width:14;fill:none" />
+        <text x="75" y="361" fill="black" transform="rotate(55 75,361)">Avenida El Dorado</text>
+        <circle r="20" cx="577" cy="34" fill="White" />
+        <text x="542" y="34" fill="black">Movistar</text>
+        <text x="550" y="45" fill="black"> Arena</text>
+        <ellipse rx="25" ry="55" cx="569" cy="138" fill="Olive"/>
+        <text x="580" y="80" fill="black" transform="rotate(90 580,80)">Estadio Nemecho</text>
+        <text x="560" y="80" fill="black" transform="rotate(90 560,80)"> Camacho El Campín</text>
+        <polygon points="111,618 161,693 245,639 190,560" style="fill:Silver;stroke:Gray;stroke-width:3" />
+        <text x="145" y="625" fill="black">Corferias</text>
+        <circle r="5" cx="523" cy="386" fill="Red" />
+        <text x="530" y="330" fill="black" transform="rotate(90 530,330)">Estación Transmilenio</text>
+        <text x="520" y="330" fill="black" transform="rotate(90 520,330)">Universidad Nacional</text>
+</svg>
