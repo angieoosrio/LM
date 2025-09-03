@@ -242,7 +242,21 @@ footer a {
   margin-right: 40px;
  
 }
-
+@media (max-width: 700px) {
+  .hv-div {
+    flex-direction: column; 
+  }
+  .hv-izq {
+    width: 100%;     
+    max-width: none; 
+    border-right: none; 
+    border-bottom: 2px solid #d4d1c8; /* Opcional: separador inferior */
+  }
+  .hv-der {
+    width: 100%; 
+    padding: 20px; 
+  }
+}
 
 
 
