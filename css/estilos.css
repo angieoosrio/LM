@@ -33,6 +33,7 @@ header {
   text-align: left;
   font-size: 1rem;
   min-height: 10vh;
+  height:auto;
   color:#f5f1e6;
   flex-shrink: 0;
 }
