@@ -257,6 +257,18 @@ footer a {
     padding: 20px; 
   }
 }
+@media (max-width: 800px) {
+  .tur-container {
+    flex-direction: column; 
+    align-items: center;    
+    gap: 20px;
+  }
+  .tur-text {
+    width: 90%;          
+    text-align: justify; 
+    font-size: 14px;     
+  }
+}
 
 
 
